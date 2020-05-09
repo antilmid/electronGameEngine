@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body style="overflow: hidden;">
+    <canvas id="world"></canvas>
+    <script>
+      const baseconfig = require("./config/base.config");
+      world.width = baseconfig.windowWidth;
+      world.height = baseconfig.windowHeight;
+      // 加载核心组件
+      const Sprite = require("./core/Sprite");
+      // 加载精灵组件
+      const SpriteImage = require("./js/SpriteComponent/image");
+    </script>
+    <script src="./core/main.js"></script>
+  </body>
+</html>
